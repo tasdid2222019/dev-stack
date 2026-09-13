@@ -8,8 +8,7 @@ function Footer() {
           <img src={logo} alt="Dev Stack" className="h-8 w-auto" />
 
           <p className="mt-5 max-w-md leading-7 text-slate-500">
-            A modern technology toolkit for developers who want to explore,
-            compare, and build their perfect development stack.
+            Curated tools, technologies, and resources for developers building modern softwares.
           </p>
 
           <div className="mt-6 flex gap-5">
