@@ -3,9 +3,9 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import Navbar from "./components/Navbar";
-// import Hero from "./components/Hero";
-// import TechnologyCard from "./components/TechnologyCard";
-// import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import TechnologyCard from "./components/TechnologyCard";
+import Footer from "./components/Footer";
 
 import type { Technology } from "./types/technology";
 
