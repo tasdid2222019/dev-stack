@@ -4,7 +4,7 @@ A responsive React + TypeScript web app where you can browse popular developer t
 
 ## Live Demo
 
-Coming soon (deployment in progress).
+https://devstack-by-tasdidahmed.netlify.app/
 
 ## Repository
 
