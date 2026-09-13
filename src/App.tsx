@@ -1,15 +1,10 @@
-
+import Navbar from "./componenets/Navbar";
 
 function App() {
 
   return (
-    <>
-     <h1 className="text-4xl font-bold">
-      Dev Stack
-    </h1> 
-
-    
-              
+    <> 
+    <Navbar />       
     </>
   )
 }
