@@ -68,7 +68,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-slate-900">
+    <div className="min-h-screen bg-transparent text-slate-900">
       <Navbar />
 
       <main>
@@ -115,7 +115,7 @@ function App() {
                   ))}
                 </div>
 
-                <aside className="h-fit rounded-3xl border border-slate-200 bg-slate-50 p-6 lg:sticky lg:top-24">
+                <aside className="h-fit rounded-3xl border border-white/50 bg-white/50 p-6 shadow-[0_8px_30px_-10px_rgba(59,130,246,0.2)] backdrop-blur-lg lg:sticky lg:top-24">
                   <div className="mb-6 flex items-center justify-between">
                     <div>
                       <h3 className="text-xl font-bold text-slate-900">
@@ -189,26 +189,7 @@ function App() {
             )}
           </div>
         </section>
-
-        <section
-          id="projects"
-          className="bg-slate-50 px-6 py-20"
-        >
-          <div className="mx-auto max-w-5xl text-center">
-            <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-violet-500">
-              Build With Confidence
-            </p>
-
-            <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">
-              From Ideas to Production
-            </h2>
-
-            <p className="mx-auto mt-5 max-w-2xl leading-7 text-slate-500">
-              A modern development stack helps you create scalable,
-              maintainable, and production-ready applications.
-            </p>
-          </div>
-        </section>
+        
 
         <section id="about" className="px-6 py-20">
           <div className="mx-auto max-w-4xl text-center">

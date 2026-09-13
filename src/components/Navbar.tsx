@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-slate-100 bg-white/95 backdrop-blur">
+    <nav className="sticky top-0 z-50 border-b border-white/40 bg-white/75 backdrop-blur-md">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         {/* Mobile menu button */}
         <button
@@ -27,7 +27,7 @@ function Navbar() {
           onClick={closeMenu}
           className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0"
         >
-          <img src={logo} alt="Dev Stack" className="h-8 w-auto" />
+        <img src={logo} alt="Dev Stack" className="h-6 w-auto md:h-8" />
         </a>
 
         {/* Desktop navigation */}
@@ -47,7 +47,7 @@ function Navbar() {
           </a>
 
           <a
-            href="#projects"
+          
             className="text-sm font-semibold text-slate-700 transition hover:text-pink-500"
           >
             Projects
@@ -69,17 +69,17 @@ function Navbar() {
         </div>
 
         {/* Authentication */}
-        <div className="flex items-center gap-2 sm:gap-3">
+        <div className="flex items-center gap-1 sm:gap-3">
           <a
             href="#signin"
-            className="hidden text-sm font-semibold text-slate-700 sm:block"
+            className="hidden min-[420px]:block text-xs font-semibold text-slate-700 sm:text-sm"
           >
             Sign In
           </a>
 
           <a
             href="#signup"
-            className="rounded-lg bg-slate-950 px-4 py-2 text-sm font-bold text-white transition hover:bg-slate-800"
+            className="rounded-lg bg-slate-950 px-3 py-1.5 text-xs font-bold text-white transition hover:bg-slate-800 sm:px-4 sm:py-2 sm:text-sm"
           >
             Sign Up
           </a>

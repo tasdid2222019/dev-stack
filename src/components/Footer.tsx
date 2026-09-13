@@ -3,7 +3,7 @@ import logo from "../assets/logo-text.png";
 function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-white">
-      <div className="mx-auto grid max-w-7xl gap-12 px-6 py-14 md:grid-cols-2 lg:grid-cols-4">
+      <div className="mx-auto grid max-w-7xl gap-12 px-6 py-14 md:grid-cols-2 lg:grid-cols-5">
         <div className="lg:col-span-2">
           <img src={logo} alt="Dev Stack" className="h-8 w-auto" />
 
@@ -71,8 +71,22 @@ function Footer() {
               Contact
             </a>
 
-            <a href="#home" className="hover:text-pink-500">
+                        <a href="#home" className="hover:text-pink-500">
               Careers
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 className="font-bold text-slate-900">Legal</h3>
+
+          <div className="mt-5 flex flex-col gap-3 text-sm text-slate-500">
+            <a href="#privacy" className="hover:text-pink-500">
+              Privacy Policy
+            </a>
+
+            <a href="#terms" className="hover:text-pink-500">
+              Terms of Service
             </a>
           </div>
         </div>

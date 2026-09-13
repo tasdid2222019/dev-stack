@@ -12,7 +12,7 @@ function TechnologyCard({
   onAdd,
 }: TechnologyCardProps) {
   return (
-    <article className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+    <article className="flex h-full flex-col rounded-3xl border border-white/50 bg-white/55 p-6 shadow-[0_8px_30px_-10px_rgba(59,130,246,0.25)] backdrop-blur-lg transition duration-300 hover:-translate-y-1 hover:shadow-[0_15px_40px_-10px_rgba(139,92,246,0.35)]">
       <div className="mb-5 flex items-start justify-between gap-4">
         <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-50 p-3">
           <img
